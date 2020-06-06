@@ -138,7 +138,7 @@ class Profile extends React.Component {
 
  			alert(`Your cont was deleted. The section will be return.`)
  			return(
- 				<Redirect to="/signup"></Redirect>);
+ 				<Redirect to="/"></Redirect>);
  		}
  	}
 
