@@ -197,7 +197,7 @@ class ListProducts extends React.Component {
 	}
 
 	backToLogin(){
-		return(<button className="button-back-to-login"><Link to="/signup">Back to Login</Link></button>);
+		return(<button className="button-back-to-login"><Link to="/">Back to Login</Link></button>);
 	}
 
 
