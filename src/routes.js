@@ -9,7 +9,7 @@ import Profile from './pages/Profile/index'
 const Routes = () => (
   <BrowserRouter>
     <Switch>
-      <Route exact path="/signup" component={SingUp} />
+      <Route exact path="/" component={SingUp} />
       <Route exact path="/list-products" component={ListProducts} />
       <Route exact path="/profile" component={Profile} />
 
