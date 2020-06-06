@@ -1,0 +1,87 @@
+
+
+/*Title*/
+.title-7 {
+
+	color: rgb(240,240,240);
+}
+
+.hello-user-profile {
+
+	color: white;
+}
+
+.info-profile {
+
+	color: white;
+	margin-bottom: 10%;
+}
+
+/*Formulário - Editar nome e CPF*/
+.form-edit-name {
+
+	display: flex;
+	background-color: white;
+	border-radius: 25px;
+	box-shadow: 8px 0px 8px gray;
+	height: 100%;
+}
+/*Buttons*/
+.button-back-to-shooping {
+	width: 40%;
+	height: 30px;
+
+	border-width: 0px;
+	border-radius: 25px;
+
+	margin: 1%;
+
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+
+	margin-left: 5%;
+	margin-top: 0%;
+
+	font-family: 'Roboto Mono';
+	font-size: 15px;
+	font-weight: 700;
+
+	background-color: white;
+}
+
+.button-back-to-shooping:hover { 
+	background-image: linear-gradient(to left, violet, white);
+	box-shadow: 8px 0px 8px gray;
+}
+
+.delete-button-profile, .edit-button-profile {
+	padding: 5%;
+	margin: 10%;
+
+	border-width: 1px;
+	border-radius: 5px;
+	border-color: transparent;
+
+	color: white;
+
+	width: 150px;
+}
+
+.delete-button-profile {
+	background-color: #ff4040;
+}
+
+.edit-button-profile {
+	background-color: #ffa500b5;
+}
+
+.delete-button-profile:hover {
+	background-color: red;
+	transition: 0.5s;
+}
+
+.edit-button-profile:hover {
+	background-color: orange;
+	transition: 0.5s;
+}

@@ -1,0 +1,31 @@
+/*Lista de Clientes*/
+
+body {
+	background-color: #b182ff;
+}
+
+.listClients-class{
+
+	text-align: center;
+
+	line-height: 30px;
+
+	margin-top: 20%;
+	margin-bottom: 5%;
+
+
+}
+
+.title-2 {
+	background-color: transparent;
+	text-align: center;
+	width: 300px;
+	color: black;
+	font-size: 40px;
+
+	font-weight: 700;
+	margin-left: auto;
+
+	text-decoration: underline;
+}
+

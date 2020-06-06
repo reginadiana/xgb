@@ -1,0 +1,19 @@
+h3 {
+	font-weight: 300;
+	margin-left: 10%;
+
+}
+input {
+	border-width: 1px;
+	background-color: white;
+	border-bottom-color: black;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	width: 80%;
+
+	font-family: 'Raleway', sans-serif;
+	color: gray;
+
+	margin-left: 10%;
+}

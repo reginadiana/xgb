@@ -1,0 +1,25 @@
+/*Poste um novo produto - Form*/
+.form-class, .form-edit-product{
+	border-radius: 25px;
+	background-color: white;
+	margin-top: 5%;
+	height: 100%;
+
+	box-shadow: 8px 0px 8px gray;
+}
+
+.form-class {
+	display: flex;
+	width: 60%;
+
+	margin-left: auto;
+    margin-right: auto;
+	
+}
+
+/*Editar produto - Form*/
+.form-edit-product{
+	width: 70%;
+	margin-top: 10%;
+
+}

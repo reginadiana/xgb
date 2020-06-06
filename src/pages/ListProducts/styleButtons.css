@@ -1,0 +1,145 @@
+/*Butons*/
+/*Botão para voltar a página de login*/
+.button-back-to-login, .button-go-to-profile, .button-create-prod {
+	width: 40%;
+
+	border-width: 0px;
+	border-radius: 25px;
+
+	margin: 1%;
+
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+
+	margin-left: 5%;
+	margin-top: 0%;
+
+	font-family: 'Roboto Mono';
+	font-size: 15px;
+	font-weight: 700;
+
+	background-color: white;
+
+	
+}
+.button-back-to-login:hover, .button-go-to-profile:hover{
+	background-image: linear-gradient(to left, violet, white);
+	box-shadow: 8px 0px 8px gray;
+}
+
+.create-product, .delete-button, .edit-button, .buy-button, .update-add-item {
+	padding: 5%;
+	margin: 10%;
+
+	border-width: 1px;
+	border-radius: 5px;
+	border-color: transparent;
+
+	color: white;
+
+}
+
+.create-product, .update-add-item {
+	background-color: #a73ca7;
+
+	margin-top: 15%;
+	margin-bottom: 10%;
+	margin-left: 10%;
+
+	width: 80%;
+
+	color: white;
+	font-weight: 700;
+
+	font-family: 'Roboto Mono';
+
+}
+
+.create-product:hover, .update-add-item:hover {
+	box-shadow: 4px 5px 4px gray;
+	font-weight: 700;
+
+	transition: 0.5s;
+}
+
+.delete-button {
+	background-color: #ff404038;
+	width: 80px;
+}
+
+.delete-button:hover {
+	background-color: #ff4040;
+	color: white;
+	transition: 0.5s;
+}
+
+.edit-button {
+	width: 80px;
+	background-color: #ffa500b5;
+
+	margin-left: 20%;
+}
+
+.edit-button:hover {
+	background-color: orange;
+	color: white;
+	transition: 0.5s;
+}
+
+.buy-button {
+	width: 80px;
+	background-color: #24b7ff;
+
+	color: white;
+	margin-left: 30%;
+}
+
+.buy-button:hover {
+	box-shadow: 4px 5px 4px gray;
+	transition: 0.5s;
+}
+
+.button-create-prod{
+	height: 50px;
+	margin-left: 30%;
+
+	background-color: #73cc0c;	
+
+	font-size: 15px;
+	color: white;
+}
+
+.button-close, .button-close-2{
+
+	width: 80%;
+	height: 50px;
+
+	margin-left: 10%;
+	margin-top: -10%;
+
+	background-color: rgb(240,240,240);	
+
+	font-size: 15px;
+	color: gray;
+	border-color: transparent;
+	border-radius: 5px;
+}
+
+.button-close:hover, .button-close-2:hover{
+	background-color: rgb(190,190,190);	
+	transition: 0.5s;	
+	color: white;
+	font-weight: 700;
+	
+}
+
+.button-create-prod:hover{
+	background-color: rgb(245,245,245);
+	border-color: #73cc0c;
+
+	border-width: 2px;
+	color: #73cc0c;
+
+	transition: 0.5s;
+}

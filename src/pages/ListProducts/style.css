@@ -1,0 +1,57 @@
+* {	margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+}
+.title-3, .title-4, .title-6 {
+	text-align: center;
+}
+
+.title-5 {
+	text-align: center;
+	margin-top: -3%;
+	color: #a73ca7;
+}
+
+.title-4, .title-6 {
+	color: #a73ca7;
+	font-size: 20px;
+}
+.sub-title {
+	font-weight: bold;
+	color: gray;
+}
+
+
+h1 span {
+	background-color: transparent;
+	color: white;
+}
+
+div {
+	margin-left: auto;
+    margin-right: auto;
+}
+
+/*Hello user*/
+.hello-user {
+	margin-top: 3%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+/*Lista de Produtos*/
+.list-products {
+	background-color: white;
+
+	border-radius: 25px;
+	box-shadow: 8px 0px 8px gray;
+
+	width: 80%;
+
+	margin-top: 20%;
+	margin-bottom: 10%;
+
+	padding: 5%;
+
+	text-align: center;
+}
